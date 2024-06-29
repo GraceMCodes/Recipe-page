@@ -1,0 +1,61 @@
+body{
+  padding: 20px;
+  text-align: justify;
+  font-size: 19px;
+  font-family: "Libre Franklin", sans-serif;
+  background-color: whitesmoke;
+  
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #4ec496;
+  font-size: 25px;
+}
+h1{
+  color: #4ec496;
+ 
+}
+button{
+  background-color: rgba(255, 0, 0, 0.773) !important;
+  border-radius: 5px;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+h1 ,h6{
+  text-align: left;
+}
+h3{
+  text-decoration: underline;
+}
+.list{
+  text-align: inherit;
+}
+.list-2{
+  text-align: justify;
+  padding: 20px;
+}
+.notes{
+  text-align: left;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+  
+
+}
+  img{
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 15px;
+    width: 400px;
+}  
+ul{
+  list-style: none;
+  text-align: justify;
+  padding: 20px;
+
+}
+
