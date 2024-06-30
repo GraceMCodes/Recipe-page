@@ -1,61 +1,68 @@
-body{
+body {
   padding: 20px;
   text-align: justify;
   font-size: 19px;
   font-family: "Libre Franklin", sans-serif;
-  background-color: whitesmoke;
-  
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgba(80, 165, 202, 0.655) 90%
+  );
 }
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   color: #4ec496;
   font-size: 25px;
-}
-h1{
-  color: #4ec496;
+  border: 5px solid rgb(226, 234, 238) ;
  
 }
-button{
+h1 {
+  color: #4ec496;
+}
+button {
   background-color: rgba(255, 0, 0, 0.773) !important;
   border-radius: 5px;
   color: antiquewhite;
   cursor: pointer;
 }
 
-h1 ,h6{
+h1,
+h6 {
   text-align: left;
+  
 }
-h3{
+h3 {
   text-decoration: underline;
+  text-decoration-color: rgba(255, 0, 0, 0.625);
 }
-.list{
+.cat {
+  color: rgba(255, 0, 0, 0.541);
+}
+.list {
   text-align: inherit;
 }
-.list-2{
+.list-2 {
   text-align: justify;
   padding: 20px;
 }
-.notes{
+.notes {
   text-align: left;
 }
 .container {
-    width: 80%;
-    margin: 0 auto;
-  
-
+  width: 80%;
+  margin: 0 auto;
 }
-  img{
-    float: left;
-    margin-left: 16px;
-    margin-bottom: 15px;
-    width: 400px;
-}  
-ul{
+img {
+  float: left;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  width: 400px;
+}
+ul {
   list-style: none;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-
 }
-
